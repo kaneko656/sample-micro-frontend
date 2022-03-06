@@ -1,0 +1,8 @@
+/dist
+
+/public/footer
+/public/header
+
+/node_modules
+
+.DS_Store
