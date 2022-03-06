@@ -18,6 +18,8 @@ module.exports = (env, arg) => {
         __dirname,
         `../${arg.mode === "development" ? "public" : "dist"}`
       ),
+      filename: "main-[hash].js",
+      chunkFilename: "main-[chunkhash].bundle.js",
     },
     resolve: {
       extensions: [".js", ".jsx"],

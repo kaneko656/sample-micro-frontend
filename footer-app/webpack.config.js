@@ -10,6 +10,8 @@ module.exports = (env, arg) => {
         __dirname,
         `../${arg.mode === "development" ? "public" : "dist"}/footer`
       ),
+      filename: "footer-[hash].js",
+      chunkFilename: "footer-[chunkhash].bundle.js",
     },
     watch: arg.mode === "development",
 
