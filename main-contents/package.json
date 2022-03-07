@@ -12,7 +12,6 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "install": "yarn",
     "start": "webpack serve --open --mode development",
     "build": "webpack --mode production"
   },
